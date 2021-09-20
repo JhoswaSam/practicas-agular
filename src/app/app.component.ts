@@ -85,5 +85,8 @@ A002.mostrarProducto();
 
 A001.moverProducto(P002,A002);
 A001.moverProducto(P002,A002);
+
 A002.mostrarProducto();
+
+A002.moverProductoCantidad(P001,A001,4);
 

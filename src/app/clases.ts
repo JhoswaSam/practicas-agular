@@ -50,6 +50,17 @@ export default class Almacen{
       console.log("Accion Exitosa");
     }
   }
+
+  public moverProductoCantidad(codP : producto, codA : Almacen, cantidad : number){
+    for (let index = 0; index < cantidad; index++) {
+      this.moverProducto(codP,codA);
+    }
+  }
+
+  public mostrarInventario(){
+    console.log("******************************\n*****"+this.nombreA+"*****\n******************************");
+    
+  }
 }
  
  
